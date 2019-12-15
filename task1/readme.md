@@ -1,11 +1,6 @@
-Статьи: https://habr.com/ru/company/ruvds/blog/422089/
-https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/this
-http://jsflow.org/docs/exec-context-fundamentals/
-https://learn.javascript.ru/bind
-
-Контекст в JavaScript.
+<h1>Контекст в JavaScript.</h1>
 Задание 1
-Задание, которое делалось при ознакомлении с функциями :
+<p>Задание, которое делалось при ознакомлении с функциями :
 Создать калькулятор, который может выполнять операции сложения, вычитания, деления и умножения.
 Calculator.add();
 Calculator.subtract();
@@ -66,8 +61,10 @@ Calculator.fetchData(/\*_ callback _/);
 
 // -- завершение асинхронной операции --
 
-console.log(Calculator.getResult()); // 500
-Задание 2
+console.log(Calculator.getResult()); // 500</p>
+
+<h2>Задание 2</h2>
+<p>
 Создать игру виселица. Виселица — простая игра, в которой загадывается слово, а игрок пытается его угадать, называя по одной букве за раз. Если игрок назвал неправильную букву, то ему начисляется одна ошибка. Если буква была названа правильно, то эта буква показывается в слове. Игра продолжается до тех пор, пока игрок не угадает слово или не совершит 6 ошибок.
 Создайте функцию конструктор Hangman, которая принимает один аргумент - слово, которое необходимо отгадать. Регистр букв не учитывается.
 var hangman = new Hangman('webpurple');
@@ -94,3 +91,4 @@ hangman.guess('b') // "webp***p_e"
 hangman.startAgain('webpurple')
 .guess('w') // "w**\_\_****"
 .getStatus(); // "w**\_\_\_** | errors left 6"
+</p>
