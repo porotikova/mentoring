@@ -1,1 +1,1 @@
-const device = () => console.log('hello');
+const device = () => console.log('На обеде добью');
